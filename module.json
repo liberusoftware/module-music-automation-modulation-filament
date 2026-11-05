@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.liberu.dev/module/v1.json",
+  "name": "music-automation-modulation-filament",
+  "display_name": "Automation and Modulation",
+  "description": "Automation and Modulation Filament presentation module skeleton",
+  "version": "0.1.0-alpha.0",
+  "category": "presentation",
+  "provider": "Liberu\\Presentation\\Capability199fbe67378f\\CapabilityServiceProvider",
+  "requires": {
+    "php": "^8.5",
+    "laravel": "^13.0",
+    "packages": {},
+    "capabilities": []
+  },
+  "presentation": {
+    "filament": {
+      "admin": [
+        "Liberu\\Presentation\\Capability199fbe67378f\\CapabilityPlugin"
+      ]
+    }
+  },
+  "capabilities": [],
+  "features": [
+    "Filament package extension entry (skeleton)"
+  ],
+  "default_enabled": false
+}
